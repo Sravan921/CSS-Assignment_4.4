@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Assignment_4.4 - Acadgild Training </title>
+<style media="screen">
+<!-- This will generate a box with red and green colors -->
+.redgreen {
+  width: 100px;
+  height: 100px;
+  left: 500px;
+  position: absolute;
+  background: red; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(left, red , green); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, red, green); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, red, green); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, red , green); /* Standard syntax */
+ box-shadow: 10px 10px 5px #888888;
+ border-radius: 10px;
+text-align: center;
+  line-height: 100px;
+  font-size: medium;
+  font-family: fantasy;
+}
+
+<-- This will Generate Circle color pattern -->
+
+.circlegrad{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 620px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(circle farthest-corner at 45px 45px, red, yellow, green); /* Safari */
+    background: -o-radial-gradient(circle farthest-corner at 45px 45px, red, yellow, green); /* Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle farthest-corner at 45px 45px, red, yellow, green); /* Firefox 3.6 to 15 */
+    background: radial-gradient(circle farthest-corner at 50px 0px, red, yellow, green); /* Standard syntax */
+   box-shadow: 10px 10px 5px #888888;
+ border-radius: 10px;
+text-align: center;
+  line-height: 100px;
+  font-size: medium;
+  font-family: fantasy;
+}
+
+<!-- This will generate ellipse pattern -->
+
+.ellipsegrad{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 740px;
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-radial-gradient(ellipse farthest-corner at 45px 45px, red, yellow, green); /* Safari */
+      background: -o-radial-gradient(ellipse farthest-corner at 45px 45px, red, yellow, green); /* Opera 11.6 to 12.0 */
+      background: -moz-radial-gradient(ellipse farthest-corner at 45px 45px, red, yellow, green); /* Firefox 3.6 to 15 */
+      background: radial-gradient(ellipse farthest-corner at 50px 0px, red, yellow, green); /* Standard syntax */
+     box-shadow: 10px 10px 5px #888888;
+   border-radius: 10px;
+  text-align: center;
+    line-height: 100px;
+    font-size: medium;
+    font-family: fantasy;
+}
+
+}
+</style>
+</head>
+<body>
+
+<div class="redgreen">Box</div>
+<div class="circlegrad">Box</div>
+<div class="ellipsegrad">Box</div>
+
+</body>
+</html>
